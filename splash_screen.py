@@ -1,6 +1,5 @@
 # splash_screen.py
 import tkinter as tk
-import time
 
 class SplashScreen(tk.Toplevel):
     def __init__(self, parent):
@@ -20,10 +19,7 @@ class SplashScreen(tk.Toplevel):
         splash_label = tk.Label(self, text="Journal App", font=("Helvetica", 24))
         splash_label.pack(expand=True)
         
-        # Optionally add a loading animation or progress bar here
-
     def show(self, duration=3000):
-        """Show the splash screen for a given duration (in milliseconds)."""
-        self.after(duration, self.destroy)  # Automatically close after duration
-        self.mainloop()
-
+        """Show the splash screen for a given duration (in milliseconds).""" 
+        self.after(duration, self.destroy) 
+        # Automatically close after duration self.mainloop()
