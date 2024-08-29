@@ -1,0 +1,8 @@
+firebase-admin==6.1.0
+pyaudio==0.2.11
+whisper==0.1.0
+TTS==0.4.0
+tkcalendar==1.6.1
+pygame==2.1.2
+pyffmpeg==0.2.3
+ollama
